@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+# Ignore generated storage files except those required by the app
+storage/*
+!storage/documents.jsonl
+!storage/pinecone_active.json
+!storage/vectors_fixed_ac3d703cb39fa8f6ea99.jsonl
+!storage/vectors_semantic_ac3d703cb39fa8f6ea99.jsonl

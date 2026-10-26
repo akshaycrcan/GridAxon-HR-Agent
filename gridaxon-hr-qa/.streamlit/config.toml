@@ -1,0 +1,20 @@
+[theme]
+base = "light"
+primaryColor = "#0866E8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F6FB"
+textColor = "#122345"
+borderColor = "#DCE5F0"
+linkColor = "#0866E8"
+font = "sans-serif"
+baseRadius = "10px"
+buttonRadius = "8px"
+showWidgetBorder = true
+headingFontSizes = ["36px", "28px", "21px", "18px", "16px", "14px"]
+paddingTop = "1rem"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
